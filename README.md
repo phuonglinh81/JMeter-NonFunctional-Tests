@@ -42,10 +42,10 @@ jmeter -v
 
 ## Một số câu hỏi thảo luận
 1. Tại sao kiểm thử phi chức năng lại quan trọng trong phần mềm?
-Kiểm thử phi chức năng quan trọng vì giúp đánh giá:
-  - Tốc độ, tính ổn định và khả năng mở rộng của hệ thống.
-  - Đảm bảo ứng dụng có thể đáp ứng số lượng người dùng lớn mà không bị sập.
-  - Giúp phát hiện bottleneck và tối ưu hiệu suất hệ thống.
+  - Kiểm thử phi chức năng quan trọng vì giúp đánh giá:
+    - Tốc độ, tính ổn định và khả năng mở rộng của hệ thống.
+    - Đảm bảo ứng dụng có thể đáp ứng số lượng người dùng lớn mà không bị sập.
+    - Giúp phát hiện bottleneck và tối ưu hiệu suất hệ thống.
 2. Các thông số quan trọng cần theo dõi trong kiểm thử hiệu suất là gì?
 - Thời gian phản hồi trung bình (Average Response Time): Thời gian server phản hồi sau mỗi request.
 - Tỷ lệ lỗi (Error Rate %): Phần trăm request bị lỗi.
