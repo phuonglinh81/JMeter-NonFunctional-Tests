@@ -23,22 +23,26 @@ jmeter -v
   - Loại request: HTTP Request đến trang chủ của website.
   - Thu thập các chỉ số: Thời gian phản hồi trung bình, Throughput, và tỷ lệ lỗi.
 - Kết quả: 
+![image](https://github.com/user-attachments/assets/d20ba1ae-59b3-4e52-b635-ff7012ae0de9)
 
 ## Kiểm thử tải
 - Kịch bản kiểm thử: 
   - Chạy kiểm thử với số lượng người dùng tăng dần từ 10 → 50.
   - Loại request: HTTP Request đến trang chủ của website.
-  - 
+  - Ghi nhận thời gian phản hồi trung bình và tỷ lệ lỗi.
 - Kết quả:
-  
+  ![image](https://github.com/user-attachments/assets/42a9d59e-378e-4cb3-82e0-8e7d1db43d9b)
+
 ## Kiểm thử khả năng chịu tải
 - Kịch bản kiểm thử: 
   - Tiếp tục tăng số lượng người dùng từ 50 → 100 → 150
   - Loại request: HTTP Request đến trang chủ của website.
   - Quan sát thời điểm hệ thống bắt đầu giảm hiệu suất đáng kể
 - Kết quả:
-  
+  ![image](https://github.com/user-attachments/assets/ec661008-7102-42c7-a812-71d24e033181)
+
 ## Kết quả kiểm thử
+![image](https://github.com/user-attachments/assets/524ee983-f5c6-4c24-a8e4-7974b5557f87)
 
 ## Một số câu hỏi thảo luận
 1. Tại sao kiểm thử phi chức năng lại quan trọng trong phần mềm?
